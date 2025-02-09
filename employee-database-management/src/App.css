@@ -1,0 +1,81 @@
+/** @format */
+
+:root {
+  --btn: #dbdbdb;
+  --btn-hover: #999999;
+  --item-bg: #f0f0f0;
+  --modal-bg: rgba(141, 141, 141, 0.541);
+}
+
+* {
+  font-family: sans-serif;
+  padding: 0 10px;
+  width: fit-content;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 20px;
+  background-color: var(--btn);
+  cursor: pointer;
+  color: black;
+}
+
+header button:hover {
+  background-color: var(--btn-hover);
+  color: black;
+}
+
+.employees {
+  display: flex;
+  width: max-content;
+}
+.employees__names {
+  width: 40%;
+  background-color: brown;
+}
+.employees__single {
+  width: 70%;
+  background-color: aqua;
+}
+.employees__name--list {
+  display: flex;
+  flex-direction: column;
+}
+.employees__names--item {
+  cursor: pointer;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: var(--btn);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.employees__names--item:hover {
+  background-color: var(--btn-hover);
+}
+
+.employees__single--info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form__Fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
